@@ -1,9 +1,17 @@
 package com.lidp.fare.domain;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 import java.time.Instant;
 
+@Entity
 public class Fare
 {
+   @Id
+   @GeneratedValue(strategy = GenerationType.AUTO)
+   private Long Id;
    private Instant departureTime;
    private double distanceMi;
    private int seatRow;
