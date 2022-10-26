@@ -44,6 +44,20 @@ When deploying a spec, Kubernetes must pull the application image from a contain
 * [Accessing Relational Data using JDBC with Spring](https://spring.io/guides/gs/relational-data-access/)
 * [Managing Transactions](https://spring.io/guides/gs/managing-transactions/)
 
-## Questions?
+### Lessons Learned
+* Adding dependencies for Gradle
+* Initializing Spring Boot Application
+* Using H2 database to use with application
+* Reading code already written
+* Added my own controller and applciation classes
+* How to install docker desktop and run a container
+* Use get mapping to expose getfares
+* Use persistence api 
 
-If you encounter any difficulties with project setup, please email matthew.segreti@lidp.com for support!
+### Still Researching
+* Creating a fat jar with Logger 
+* How to use the logger class
+* Single nodeport service 
+
+
+
